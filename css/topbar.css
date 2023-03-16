@@ -1,0 +1,19 @@
+#top-nav{
+    background-color: #28282B;
+    width: 75vw;
+    height: 5vh;
+    top: 0;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+}
+a{
+    background-color: #555555;
+    padding: 3%;
+    text-align: center;
+}
+.dropdown{
+    background-color: #1b1b1d;
+    float: left;
+    overflow: hidden;
+}

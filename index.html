@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <!-- This is where styling goes -->
+    <head>
+        <title>MyApp</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/topbar.css">
+    </head>
+    <!-- This is where placing items go -->
+    <body>
+        <div id="top-nav">
+            <div id="File" class="dropdown">
+                <button class="File">
+                    File
+                </button>
+            </div>
+        </div>
+        <div id="sidebar">
+            sidebar
+        </div>
+        <div id="content">
+            <div id="main-content">
+                <header>
+                    <h1>Title</h1>
+                </header>
+                main content
+                <div id="screen">
+                    <div id="splash-screen">
+                        <div id="start-game-btn" class="button">Start</div>
+                    </div>
+                    <div id="game-screen" class="hide">
+                        <div id="end-game-btn" class="button">End</div>
+                    </div>
+                    <div id="end-screen" class="hide">
+                        <div id="play-again-btn" class="button">Play Again</div>
+                    </div>
+                </div>
+                <div id="other-items">
+                    <div id="select-area">
+                        <h4>Level Select</h4>
+                        <div id="level-select">
+                            <label for="dropdown-menu">Level Select</label>
+                            <select id="dropdown-menu">
+                                <option value="level1">Level 1</option>
+                                <option value="level2">Level 2</option>
+                                <option value="level3">Level 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Copyright (C) Micaella Langit 2023
+        </footer>
+        <!-- This is where the Javascript goes -->
+        <script type="module" src="./javascript/index.js"></script>
+    </body>
+</html>
