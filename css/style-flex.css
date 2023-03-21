@@ -1,0 +1,35 @@
+/*
+*  Copyright (C) 2023 Micaella Langit
+*/
+.container {
+    display: flex;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:normal;
+}
+
+.columns {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.rows {
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.baseline { align-items: baseline; }
+.top { align-items: flex-start; justify-content: flex-start;}
+.center { text-align: center; }
+
+.full { width: 100vw; }
