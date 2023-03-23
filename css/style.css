@@ -35,6 +35,8 @@ body{
     height: 30vh;
     overflow-x: scroll;
     overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
 }
 #select-area{
     background-color: #555555;
