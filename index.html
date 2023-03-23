@@ -2,10 +2,10 @@
 <html>
     <!-- This is where styling goes -->
     <head>
-        <title>MyApp</title>
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/style-base.css">
+        <title>LevelEditor</title>
         <link rel="stylesheet" href="/css/style-topbar.css">
+        <link rel="stylesheet" href="/css/style-base.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <!-- This is where placing items go -->
     <body>
@@ -38,7 +38,7 @@
                 </div>
                 <div id="other-items">
                     <div id="select-area">
-                        <h4>Level Editor Options</h4>
+                            <h4>Level Editor Options</h4>
                         <div id="field">
                             <label for="dropdown-menu">Level Select</label>
                             <select id="dropdown-menu">
@@ -48,7 +48,35 @@
                             </select>
                         </div>
                         <div class="field">
-                            
+                            <label for="obstacles">Obstacles:</label>
+                            <input type="text" name="obstacles" value="2">
+                        </div>
+                        <div class="field">
+                            <label for="max-shots">Max Shots:</label>
+                            <input type="text" name="max-shots" value="2">
+                        </div>
+                        <div class="field">
+                            <label for="num-enemies"># Of Enemies:</label>
+                            <input type="text" name="num-enemies" value="2">
+                        </div>
+                        <div class="field">
+                            <label for="one-star-score">* Score:</label>
+                            <input type="text" name="one-star-score" value="100">
+                        </div>
+                        <div class="field">
+                            <label for="two-star-score">** Score:</label>
+                            <input type="text" name="two-star-score" value="500">
+                        </div>
+                        <div class="field">
+                            <label for="three-star-score">*** Score:</label>
+                            <input type="text" name="three-star-score" value="1000">
+                        </div>
+                        <div class="field">
+                            <label for="background">Background:</label>
+                            <input type="text" name="background" value="my-background">
+                        </div>
+                        <div id="save-button">
+                            <button>Save</button>
                         </div>
                     </div>
                 </div>
@@ -58,6 +86,6 @@
             Copyright (C) Micaella Langit 2023
         </footer>
         <!-- This is where the Javascript goes -->
-        <script type="module" src="./javascript/index.js"></script>
+        <script type="module" src="./scripts/index.js"></script>
     </body>
 </html>
