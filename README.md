@@ -31,7 +31,7 @@ This project is to help us create more than one level for an Angry Birds game wi
 - open project
 
 
-[Download Zip] https://github.com/langit24micaella/VisualScripting_A1.git 
+[Download Zip] https://github.com/langit24micaella/PG24Micaella_Javascript_A1.git
 
 URL or Full path in Perforce or BitBucket
 
