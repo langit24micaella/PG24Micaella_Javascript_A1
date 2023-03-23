@@ -21,7 +21,7 @@ body{
     right: 0;
     padding: 1%;
 }
-#screen{
+.screen{
     width: 60vw;
     height: 50vh;
     border: black;

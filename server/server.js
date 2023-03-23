@@ -38,6 +38,12 @@ class Server {
             let file = `${Path.join(__dirname, '/..')}/css/${request.params.id}`;
             response.sendFile( file );
         })
+
+        this.api.get('/scripts/:id', (request, response) => {
+            console.log('Request for javascript files');
+            let file = `${Path.join(__dirname, '/..')}/scripts/${request.params.id}`;
+            response.sendFile( file );
+        })
     }
 
 
